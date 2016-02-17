@@ -46,9 +46,9 @@ age = str
 
 if year < 1980:
     age = "stone age"
-elif year <=1980 and =<1989:
+elif year <=1989:
     age = "eighties"
-elif year =<1990 and <=1999:
+elif year <=1999:
     age = "nineties"
 else: year >= 2000:
     age = "two thousands"
