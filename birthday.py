@@ -1,6 +1,6 @@
 """
 birthday.py
-Author: <your name here>
+Author: Glen
 Credit: <list sources used, if any>
 Assignment:
 
@@ -31,3 +31,11 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+
+from datetime import datetime
+from calendar import month_name
+todaymonth = datetime.today().month
+todaydate = datetime.today().day
+month = month_name[todaymonth]
+
+n = int(input("Hello, what is your name? "))
