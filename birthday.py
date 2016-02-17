@@ -40,7 +40,7 @@ todaydate = datetime.today().day
 
 name = str(input("Hello, what is your name? "))
 month = str(input("Hello {0} , what was the name of the month you were born in? ".format(name)))
-monthNum = month_name(month)
+#monthNum = month_name[month]
 year = int(input("And what year were you born in, {0}? ".format(n)))
 day = int(input("And the day? "))
 age = str
