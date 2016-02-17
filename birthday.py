@@ -1,7 +1,7 @@
 """
 birthday.py
 Author: Glen
-Credit: <list sources used, if any>
+Credit: Fletcher
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -56,14 +56,14 @@ elif year <=1999:
 else:
     age = "two thousands"
 """
-if  < 1980:
-    season = "stone age"
-elif year <=1989:
-    season = "eighties"
-elif year <=1999:
-    season = "nineties"
+if month < 1980:
+    season = "spring"
+elif month <=1989:
+    season = "summer"
+elif month <=1999:
+    season = "fall"
 else:
-    season = "two thousands" 
+    season = "winter" 
 """
 
     
