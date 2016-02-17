@@ -40,8 +40,8 @@ todaydate = datetime.today().day
 
 name = str(input("Hello, what is your name? "))
 month = str(input("Hello {0} , what was the name of the month you were born in? ".format(name)))
-#monthNum = month_name[month]
-year = int(input("And what year were you born in, {0}? ".format(n)))
+monthNum = month_name(month)
+year = int(input("And what year were you born in, {0}? ".format(name)))
 day = int(input("And the day? "))
 age = str
 
@@ -55,16 +55,19 @@ elif year <=1999:
     age = "nineties"
 else:
     age = "two thousands"
+    
+print(age)
 """
-if month < 1980:
+if month <= :
     season = "spring"
-elif month <=1989:
+elif month <=:
     season = "summer"
-elif month <=1999:
+elif month <=:
     season = "fall"
 else:
     season = "winter" 
 """
+
 
     
     
