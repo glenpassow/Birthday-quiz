@@ -46,10 +46,11 @@ day = int(input("And the day? "))
 age = str
 
 print(monthNum)
-
-if
-
+"""
+if month == todaymonth and day == todaydate
+    print("Happy birthday!")
 else:
+"""
     if year < 1980:
         age = "stone age"
     elif year <=1989:
@@ -70,8 +71,8 @@ else:
     else:
         season = "winter" 
     
-print(season)
-print(age)
+print( "{0}, you are a {1} baby of the {2}.".format(name)(season)(age))
+
 
 
 
