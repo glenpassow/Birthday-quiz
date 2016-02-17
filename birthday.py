@@ -36,13 +36,16 @@ from datetime import datetime
 from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
-month = month_name[todaymonth]
+
 
 name = str(input("Hello, what is your name? "))
 month = str(input("Hello {0} , what was the name of the month you were born in? ".format(name)))
-year = str(input("And what year were you born in, {0}? ".format(n)))
+monthNum = month_name(month)
+year = int(input("And what year were you born in, {0}? ".format(n)))
 day = int(input("And the day? "))
 age = str
+
+print(monthNum)
 
 if year < 1980:
     age = "stone age"
@@ -50,10 +53,19 @@ elif year <=1989:
     age = "eighties"
 elif year <=1999:
     age = "nineties"
-else: year >= 2000:
+else:
     age = "two thousands"
-    
-print(age)
+"""
+if  < 1980:
+    season = "stone age"
+elif year <=1989:
+    season = "eighties"
+elif year <=1999:
+    season = "nineties"
+else:
+    season = "two thousands" 
+"""
+
     
     
     
