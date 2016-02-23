@@ -76,7 +76,7 @@ else:
         else:
             season = "winter" 
     
-    print( "{0}, you are a {1} baby of the {2}.".format(name, season, age))
+        print( "{0}, you are a {1} baby of the {2}.".format(name, season, age))
 
 
 
