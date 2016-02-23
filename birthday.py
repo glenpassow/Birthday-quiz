@@ -38,18 +38,25 @@ todaymonth = datetime.today().month
 todaydate = datetime.today().day
 monthNum = 12
 
+print(todaymonth)
+print(todaydate)
+
+m = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+print(m[6])
+
+"""
 name = str(input("Hello, what is your name? "))
 month = str(input("Hello {0} , what was the name of the month you were born in? ".format(name)))
-#monthNum = month_name(month)
+
 year = int(input("And what year were you born in, {0}? ".format(name)))
 day = int(input("And the day? "))
 age = str
 
 print(monthNum)
 """
-if month == todaymonth and day == todaydate
-    print("Happy birthday!")
-else:
+#if month == todaymonth and day == todaydate
+#    print("Happy birthday!")
+#else:
 """
     if year < 1980:
         age = "stone age"
@@ -73,7 +80,7 @@ else:
     
 print( "{0}, you are a {1} baby of the {2}.".format(name)(season)(age))
 
-
+"""
 
 
     
