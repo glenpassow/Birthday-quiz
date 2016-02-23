@@ -51,26 +51,30 @@ age = str
 if a == todaymonth and day == todaydate:
     print("Happy birthday!")
 else:
-
-    if year < 1980:
-        age = "stone age"
-    elif year <=1989:
-        age = "eighties"
-    elif year <=1999:
-        age = "nineties"
+    
+    if a == 10 and day == 31:
+        print("You were born on Halloween!")
     else:
-        age = "two thousands"
+
+        if year < 1980:
+            age = "stone age"
+        elif year <=1989:
+            age = "eighties"
+        elif year <=1999:
+            age = "nineties"
+        else:
+            age = "two thousands"
     
 
 
-    if a <= 5 and a >= 3 :
-        season = "spring"
-    elif a <= 8 and a >= 6 :
-        season = "summer"
-    elif a <= 11 and a >= 9 :
-        season = "fall"
-    else:
-        season = "winter" 
+        if a <= 5 and a >= 3 :
+            season = "spring"
+        elif a <= 8 and a >= 6 :
+            season = "summer"
+        elif a <= 11 and a >= 9 :
+            season = "fall"
+        else:
+            season = "winter" 
     
     print( "{0}, you are a {1} baby of the {2}.".format(name, season, age))
 
