@@ -38,7 +38,7 @@ todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
 name = str(input("Hello, what is your name? "))
-month = str(input("Hello {0}, what was the name of the month you were born in? ".format(name)))
+month = str(input("Hi {0}, what was the name of the month you were born in? ".format(name)))
 
 m = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 a = m.index(month)
